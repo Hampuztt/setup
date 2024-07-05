@@ -1,0 +1,7 @@
+types-Pygments
+types-colorama
+types-decorator
+types-jsonschema
+types-pyOpenSSL
+types-redis
+types-six

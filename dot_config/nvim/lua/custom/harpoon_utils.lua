@@ -1,0 +1,19 @@
+-- local M = {}
+--
+-- M.project_dirs = {
+--   { name = "apytypesc++", path = "~/programming/apytypes/src/" },
+--   { name = "ApytypesPython", path = "~/programming/apytypes/lib/" },
+--   { name = "config", path = "~/.config/nvim/lua" },
+-- }
+--
+-- M.setup_projects = function()
+--   local harpoon = require("harpoon")
+--   for _, project in ipairs(M.project_dirs) do
+--     local expanded_path = vim.fn.expand(project.path)
+--     print("Adding path to harpoon: " .. expanded_path)
+--     harpoon:list():add(expanded_path)
+--     print(harpoon:list())
+--   end
+-- end
+--
+-- return M
